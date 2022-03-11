@@ -21,6 +21,7 @@ body {
 .cabecalho figure img {
   width: 100%;
   max-width: 140px;
+
 }
 
 .cabecalho .cabecalho__logoPicpro {
@@ -43,27 +44,47 @@ body {
 .secaoDetalhesConta__sobreUsuario--nome{
   display: flex;
   align-items: center;
-  border-radius: 100%;
+
   
 }
 .secaoDetalhesConta__sobreUsuario--icones {
   display: flex;
   align-items: center;
+  
+  
 }
 .secaoDetalhesConta__sobreUsuario--icones img {
   margin: 0 10px;
+  
+  
   
 }
 
 .secaoDetalhesConta__sobreUsuario p {
   font-size: 18px;
   margin-left: 10px;
+  
 }
 
 .secaoDetalhesConta__sobreUsuario img {
   width: 100%;
   max-width: 50px;
+  border-radius: 1000%;
   
+}
+.secaoDetalhesConta__sobreUsuario--icones img{
+  width: 100%;
+  max-width: 50px;
+  position: absolute; 
+	right: 380px; /* posiciona a 90px para a esquerda */ 
+	top: 137px; /* pososiciona a 70px para baixo */
+}
+.secaoDetalhesConta__sobreUsuario--icones2 img{
+  width: 100%;
+  max-width: 50px;
+  position: absolute; 
+	right: 320px; /* posiciona a 90px para a esquerda */ 
+	top: 140px; /* posiciona a 70px para baixo */
 }
 
 .secaoDetalhesConta__sobreUsuario p strong {
